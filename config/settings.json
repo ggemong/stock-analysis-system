@@ -1,0 +1,40 @@
+{
+  "data_collection": {
+    "retry_attempts": 3,
+    "retry_delay": 2,
+    "timeout": 30,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  },
+  "technical_indicators": {
+    "rsi_period": 14,
+    "ma_periods": [20, 50, 200],
+    "bollinger_period": 20,
+    "bollinger_std": 2,
+    "macd_fast": 12,
+    "macd_slow": 26,
+    "macd_signal": 9
+  },
+  "exchange_rates": {
+    "base_currency": "USD",
+    "target_currencies": ["KRW"],
+    "api_priority": ["exchangerate-api", "yfinance"]
+  },
+  "macro_indicators": {
+    "fred_series": {
+      "GDP": "GDP",
+      "UNEMPLOYMENT": "UNRATE",
+      "INFLATION": "CPIAUCSL",
+      "FED_RATE": "DFF",
+      "10Y_TREASURY": "DGS10",
+      "VIX": "VIXCLS"
+    }
+  },
+  "telegram": {
+    "parse_mode": "HTML",
+    "disable_web_page_preview": true
+  },
+  "schedule": {
+    "timezone": "Asia/Seoul",
+    "run_time": "07:00"
+  }
+}

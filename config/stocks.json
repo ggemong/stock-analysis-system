@@ -1,0 +1,125 @@
+{
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "market": "US",
+      "sector": "Technology",
+      "type": "Stock"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "market": "US",
+      "sector": "Technology",
+      "type": "Stock"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "market": "US",
+      "sector": "Technology",
+      "type": "Stock"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com Inc.",
+      "market": "US",
+      "sector": "Consumer Cyclical",
+      "type": "Stock"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms Inc.",
+      "market": "US",
+      "sector": "Technology",
+      "type": "Stock"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "market": "US",
+      "sector": "Automotive",
+      "type": "Stock"
+    },
+    {
+      "symbol": "005930.KS",
+      "name": "삼성전자",
+      "market": "KR",
+      "sector": "Technology",
+      "type": "Stock"
+    },
+    {
+      "symbol": "000660.KS",
+      "name": "SK하이닉스",
+      "market": "KR",
+      "sector": "Technology",
+      "type": "Stock"
+    },
+    {
+      "symbol": "005380.KS",
+      "name": "현대차",
+      "market": "KR",
+      "sector": "Automotive",
+      "type": "Stock"
+    },
+    {
+      "symbol": "438650.KS",
+      "name": "TIGER 리츠부동산인프라",
+      "market": "KR",
+      "sector": "Real Estate",
+      "type": "ETF"
+    },
+    {
+      "symbol": "411060.KS",
+      "name": "ACE KRX금현물",
+      "market": "KR",
+      "sector": "Commodities",
+      "type": "ETF"
+    },
+    {
+      "symbol": "133690.KS",
+      "name": "TIGER 미국나스닥100",
+      "market": "KR",
+      "sector": "US Index",
+      "type": "ETF"
+    },
+    {
+      "symbol": "446720.KS",
+      "name": "SOL 미국배당다우존스",
+      "market": "KR",
+      "sector": "US Dividend",
+      "type": "ETF"
+    },
+    {
+      "symbol": "469280.KS",
+      "name": "ACE 미국30년국채액티브(H)",
+      "market": "KR",
+      "sector": "US Treasury",
+      "type": "ETF"
+    },
+    {
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "market": "Crypto",
+      "sector": "Cryptocurrency",
+      "type": "Crypto"
+    },
+    {
+      "symbol": "ETH-USD",
+      "name": "Ethereum",
+      "market": "Crypto",
+      "sector": "Cryptocurrency",
+      "type": "Crypto"
+    }
+  ],
+  "portfolio_summary": {
+    "total_assets": 16,
+    "us_stocks": 6,
+    "kr_stocks": 3,
+    "kr_etfs": 5,
+    "crypto": 2
+  },
+  "update_date": "2026-01-30",
+  "notes": "다변화된 포트폴리오: 미국 빅테크 6종, 한국 대표주 3종, ETF 5종 (부동산/금/나스닥100/배당/국채), 암호화폐 2종"
+}
